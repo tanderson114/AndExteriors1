@@ -1,0 +1,3 @@
+﻿namespace AndExteriors.Region1 {
+}
+

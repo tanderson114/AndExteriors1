@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = Serenity.LocalText.Get("Db.Region1.OrderDetail.EntityPlural");
+}
+
+<div id="GridDiv"></div>
+
+<script type="text/javascript">
+    jQuery(function () {
+        new AndExteriors.Region1.OrderDetailGrid($('#GridDiv'), {
+        });
+
+        Q.initFullHeightGridPage($('#GridDiv'));
+    });
+</script>
